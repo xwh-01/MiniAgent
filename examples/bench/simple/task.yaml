@@ -1,0 +1,6 @@
+id: simple-fix
+workspace: examples/bench/simple/workspace
+problem_statement: |
+  Update hello.txt so it contains the word "fixed".
+test:
+  - grep -q fixed hello.txt

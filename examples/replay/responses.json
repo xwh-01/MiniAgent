@@ -1,0 +1,4 @@
+[
+  "I will inspect the workspace.\n```bash\nls -la\n```",
+  "Done.\n```bash\necho COMPLETE_TASK_AND_SUBMIT_FINAL_OUTPUT\n```"
+]

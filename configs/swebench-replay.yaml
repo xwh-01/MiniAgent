@@ -1,0 +1,9 @@
+agent:
+  max_steps: 4
+  command_timeout: 10s
+  max_observation_chars: 8000
+model:
+  provider: replay
+  replay_file: examples/bench/simple/responses.json
+environment:
+  type: local

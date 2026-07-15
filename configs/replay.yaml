@@ -1,0 +1,15 @@
+task: |
+  Inspect the workspace and then submit.
+workspace: .
+out: runs/replay
+
+agent:
+  max_steps: 5
+  command_timeout: 30s
+
+model:
+  provider: replay
+  replay_file: examples/replay/responses.json
+
+environment:
+  type: local
